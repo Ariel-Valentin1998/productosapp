@@ -1,0 +1,80 @@
+.conteiner{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+  .contes{
+    border-radius: 20px;
+      height: 530px;
+      width: 345px;
+      box-shadow:0 0 7px #111 ;
+      margin: 30px 30px;
+      transition: transform .2s;
+  }
+  .contes:hover{
+      transform: scale(1.1);
+  }
+  .contes .cards{
+      height: 200px;
+      width: 100%;
+      margin-bottom: 170px;
+  }
+ 
+  .cards img{
+      margin: auto;
+      display: block;
+  }
+  .products img{
+      height: 330px;
+      width: 300px;
+  }
+  .conte .products{
+       background-color: #111;
+  }
+  .informacions{
+      height: 80px;
+      width: 100%;
+  }
+  .informacions h1{
+      font-family: sans-serif;
+      font-size: 1.2em;
+      text-align: center;
+      color: #333;
+      margin-bottom: -10px;
+  }
+  .informacions p{
+      text-align: center;
+      font-family: sans-serif;
+      font-size: .9em;
+      color: #555;
+  }
+  .precios {
+      height:50px;
+      width: 85%;
+      margin: auto;
+      font-family: sans-serif;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+  .box-precios{
+      width: 60px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+   .piezas{
+      color: blue;
+      font-size: .8em;
+  }
+  .precios .precios2{
+    color: #111;
+      font-size: 1.5em;
+  }
+  .shoping{
+      font-size: 1.5em;
+      color: #555;
+  }
